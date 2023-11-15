@@ -1,6 +1,5 @@
 {
     //type assertion
-
     let anything: any;
 
     anything = 'sakib';

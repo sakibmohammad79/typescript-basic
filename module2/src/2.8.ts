@@ -1,6 +1,7 @@
 {
 //
 type Something = {something: string}
+
 const createPromise = () : Promise<Something> => {
     return  new Promise<Something>((resolve, reject) => {
         const data: Something = {something: 'something'}
